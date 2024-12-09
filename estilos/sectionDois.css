@@ -1,5 +1,9 @@
-.sectionDoisDisplay{
+.sectionDoisDisplay {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 100%; /* Garante que o elemento ocupe 100% da largura disponível */
+    max-width: 100%; /* Impede que o conteúdo ultrapasse a largura da tela */
+    padding: 0 15px; /* Adiciona espaçamento interno (opcional) */
+    box-sizing: border-box; /* Garante que padding e borda sejam incluídos no tamanho total do elemento */
 }

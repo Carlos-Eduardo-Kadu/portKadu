@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="Bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
@@ -16,7 +16,7 @@
             <a href="#" class="active"> Home</a>
             <a href="#habilidades" >Habilidades</a>
             <a href="#projetos" >Projetos</a>
-            <a href="#contato" >Contact</a>
+            <a href="#contato" >Contato</a>
         </nav>
     </header>
     <!---Section - 1-->
@@ -56,9 +56,9 @@
 
               <div class="card me-2" style="width: 45rem;  background-color: black; border: 1px solid #d7b661;" >
                 <div class="card-body" style="display: flex; flex-direction: column; align-items: center; color: white; font-size: 15px;">
-                  <h5 class="card-title social-icons " style="margin-top: 8px;"><a class="m-auto"><i class="fa-solid fa-code"></i></a></h5>
+                  <h5 class="card-title social-icons " style="margin-top: 9px;"><a class="m-auto"><i class="fa-solid fa-code"></i></a></h5>
                   <h6 class="mb-2" style="margin-top: 6px; color: white;">Desenvolvedor Web</h6>
-                  <p class="" style="text-align: justify;">Como desenvolvedor web, utilizo minha habilidade técnica e criatividade para criar soluções digitais funcionais e atrativas, desde sites institucionais até aplicações dinâmicas para a web. Trabalho com linguagens como JavaScript, HTML e CSS para entregar projetos modernos e otimizados.</p>
+                  <p class="" style="text-align: justify;">Como desenvolvedor web, utilizo minha habilidade técnica e criatividade para criar soluções digitais funcionais e atrativas, desde sites institucionais até aplicações dinâmicas para a web. Trabalho com linguagens como HTML, CSS, JavaScript, PHP e JSP para entregar projetos modernos e otimizados.</p>
                   <div>
                   </div>
                 </div>
@@ -74,7 +74,7 @@
               <div class="card me-2" style="width: 30rem; background-color: black; border: 1px solid #d7b661;" >
                 <div class="card-body" style="display: flex; flex-direction: column; align-items: center;">
                   <h5 class="card-title social-icons p-3"><a class="m-auto"><i class="fa-solid fa-film"></i></a></h5>
-                  <h6 class="card-subtitle mb-2 text-body-secondary">Editor de Vídeos</h6>
+                  <h6 class="card-subtitle mb-2" style="color: white;">Editor de Vídeos</h6>
                   <div>
                     <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="carregaMedia(1)">Ver Projetos</button>
                   </div>
@@ -84,7 +84,7 @@
               <div class="card me-2"style="width: 30rem; background-color: black; border: 1px solid #d7b661;">
                 <div class="card-body" style="display: flex; flex-direction: column; align-items: center;">
                   <h5 class="card-title social-icons " style="margin-top: 8px;"><a class="m-auto"><i class="fa-solid fa-code"></i></a></h5>
-                  <h6 class="card-subtitle mb-2 text-body-secondary" style="margin-top: 6px;">Desenvolvedor Web</h6>
+                  <h6 class="card-subtitle mb-2" style="margin-top: 6px; color: white;">Desenvolvedor Web</h6>
                   <div>
                     <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="carregaMedia(2)">Ver Projetos</button>
                   </div>
@@ -94,7 +94,7 @@
               <div class="card me-2" style="width: 30rem; background-color: black; border: 1px solid #d7b661;">
                 <div class="card-body" style="display: flex; flex-direction: column; align-items: center;">
                   <h5 class="card-title social-icons " style="margin-top: 8px;"><a class="m-auto"><i class="fa-solid fa-pen-nib"></i></i></a></h5>
-                  <h6 class="card-subtitle mb-2 text-body-secondary" style="margin-top: 6px;">Desenvolvedor Web</h6>
+                  <h6 class="card-subtitle mb-2" style="margin-top: 6px; color: white;">Designer</h6>
                   <div>
                     <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="carregaMedia(3)">Ver Projetos</button>
                   </div>
@@ -120,7 +120,7 @@
         
         <!-- Modal -->
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-xl"> <!-- Use  modal-xl para uma boa largura do modal -->
+          <div class="modal-dialog modal-fullscreen"> <!-- Alterado de modal-xl para modal-fullscreen -->
             <div class="modal-content background-modal" style="background-color: black; border: 1px solid #d7b661;">
               <div class="modal-header">
                 <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: #d7b661;">Projetos realizados</h1>
@@ -128,16 +128,15 @@
               </div>
               <div class="modal-body">
                 <div id="mediaGrid" class="row"></div>
-                  <!-- As imagens serão alteradas dinamicamente -->
-                   
-                </div>
+                <!-- As imagens serão alteradas dinamicamente -->
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary mt-2" data-bs-dismiss="modal">Fechar</button>
               </div>
             </div>
           </div>
-      </div>
+        </div>
+        
 
   
     
