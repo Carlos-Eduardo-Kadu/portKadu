@@ -1,11 +1,13 @@
 const mediaSets = {
     1: [
+      { type: "video", src: "videos/Advocacia Barreto -  gancho 1.1.mp4" },
       { type: "video", src: "videos/ads 39.mp4" },
       { type: "video", src: "videos/ice cube.mp4" },
       { type: "video", src: "videos/Diferencial do gordon.mp4" },
       { type: "video", src: "videos/purple burrn - 2.mp4" },
       { type: "video", src: "videos/the who.mp4" },
-      { type: "video", src: "videos/video teste - 2.mp4" }
+      { type: "video", src: "videos/video teste - 2.mp4" },
+      { type: "video", src: "videos/COMPRAS -  reflexo mascarado.mp4" }
     ],
     2: [
         { type: "video", src: "videos/Aplicativo gerador de conselhos (3).mp4" },
